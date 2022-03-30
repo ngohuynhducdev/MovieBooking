@@ -145,9 +145,9 @@ export const AdminTemplate = (props) => {
                       </NavLink>
                     </Menu.Item>
                   </SubMenu>
-                  {/* <Menu.Item key="16" icon={<FileOutlined />}>
+                  <Menu.Item key="16" icon={<FileOutlined />}>
                     File
-                  </Menu.Item> */}
+                  </Menu.Item>
                 </Menu>
               </Sider>
               <Layout className="site-layout">

@@ -6,7 +6,7 @@ export const getListFilmForm = () => {
   return async (dispatch) => {
     try {
       let result = await axios({
-        url: `https://movie0706.cybersoft.edu.vn/api/QuanLyPhim/LayDanhSachPhim?maNhom=GP03`,
+        url: `https://movie0706.cybersoft.edu.vn/api/QuanLyPhim/LayDanhSachPhim?maNhom=GP01`,
         method: "GET",
       });
       // console.log(result.data);
@@ -36,7 +36,7 @@ export const getMovieShowtimesAndCinemas = (maHeThongRap) => {
   return async (dispatch) => {
     try {
       let result = await axios({
-        url: `https://movie0706.cybersoft.edu.vn/api/QuanLyRap/LayThongTinLichChieuHeThongRap?${maHeThongRap}=CGV&maNhom=GP03`,
+        url: `https://movie0706.cybersoft.edu.vn/api/QuanLyRap/LayThongTinLichChieuHeThongRap?${maHeThongRap}=CGV&maNhom=GP01`,
         method: "GET",
       });
       dispatch({

@@ -92,12 +92,12 @@ export const AdminTemplate = (props) => {
                   <Menu.Item id="logoAdmin" icon={<img src={logo} />}>
                     <NavLink to="/"> ADMIN MANAGER</NavLink>
                   </Menu.Item>
-                  {/* <Menu.Item key="1" icon={<PieChartOutlined />}>
+                  <Menu.Item key="1" icon={<PieChartOutlined />}>
                     Dashboard
                   </Menu.Item>
                   <Menu.Item key="2" icon={<DesktopOutlined />}>
                     Notifications
-                  </Menu.Item> */}
+                  </Menu.Item>
                   <SubMenu
                     key="sub1"
                     icon={<UserOutlined />}
@@ -145,9 +145,9 @@ export const AdminTemplate = (props) => {
                       </NavLink>
                     </Menu.Item>
                   </SubMenu>
-                  {/* <Menu.Item key="16" icon={<FileOutlined />}>
+                  <Menu.Item key="16" icon={<FileOutlined />}>
                     File
-                  </Menu.Item> */}
+                  </Menu.Item>
                 </Menu>
               </Sider>
               <Layout className="site-layout">
